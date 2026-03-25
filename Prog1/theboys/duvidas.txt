@@ -1,0 +1,1 @@
+- iniciar missão com 0 ou 1 

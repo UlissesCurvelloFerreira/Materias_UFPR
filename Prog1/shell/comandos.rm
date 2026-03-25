@@ -1,0 +1,88 @@
+ctrl shift t = abre uma nova aba com um novo terminal;
+
+alt 1 ou alt 2 = usando para se movimentar entre as abas abertas anteriormente;
+
+exit = fecha a aba do terminal que está;
+
+creal = limpa a tela;
+
+ctrl l = sobre a imagem da tela usando igual ao cliar;
+
+reset = reinicia o terminal;
+
+echo $SHELL = mostra que tipo de shell você esta usando;
+
+pwd = exibe o diretorio atual;
+
+cd = muda de diretório;
+
+ls = lista o conteúdo do diretório atual;
+
+ls -i = exibe o i-node dos arquivos (identificados do arquivo);
+
+ls *.mkv = ira pegar todos os arquivos com a estenção mkv, dado que o coringa(*) representa qualquer arquivo;
+
+ls -a = exibe os caracteres ocultos. Obs: Todo arquivo começando com um ponto é oculto;
+
+ls -l = lista longa exibe as strings de permissoes de cada arquivo;
+
+ls -1 = lista todos os arquivos em uma unica coluna, mostra permissoes e tamanho;
+
+echo = usado para exibir struings no terminal ou nome de variáveis;
+
+echo -e = o "-e" serve para que o comando echo consiga interpretar caracteres especiais ou exibir cores;
+
+echo $HOME = ira aexibir mesma tela qu equando digitamos ctrl alt t, é a mesma tela do termianl, tela de user;
+
+====================================================================================================================
+
+chmod = usado para alterar as perissoes dosarquivos, assim mudando leitura, escrita e execução de arquivos;
+-chmod u=rwx teste.txt == isso quer duzer que o usuario tem agorq todas as permissoes do arquivo de teste.txt;
+
+IMPORTANTE SABER:
+ - Os primeiros campos das permissoe dos arquivos se referem ao usuario, ja o segundo campo se refere ao grupo;
+ -Após isso é mostrado onde o arquivo se encontra, depois o tamanho dos arquivos e quando foi criado;
+
+
+ ====================================================================================================================
+
+dirname = Dado um arquivo criado, uma variável guarda seu caminho ex: /Home/Documentos/teste.txt
+- Usando o comando dirname obtemos somente o nome do diretorio onde o arquivo se encontra:
+	ex: dirname LOCAL_ARQUIVO => /Home/Documentos;
+
+
+basename = Já o basename retorna somente o nome do arquivo, dado que uma variável está guardando
+o o caminho até onde o diretório se encontra.
+- Obs basename nova_variavel .txt = devolve o nome do arquivo sem a estenção .txt;
+
+history = Exibe o histórico de comandos da maquina;
+- Usamos qualquer um dos comandos presentes no histórico fazendo "!número que está ao lago do comando";
+- Ou fazemos "!comando qualquer", assim ele executara o último comando qualquer que encontar no histórico;
+- history | tail -5 = pega as ultimas 5 linhas do histórico;
+
+mkdir = gera uma pasta;
+
+mkdir -p = gera uma pasta dentro de uma pasta ja criada;
+
+mktemp = gera um arquivo temporário, por padrãp ira gerar os arquivos na pasta pmp que é a pasta de 
+arquivos tempporários do shell;
+- Pode ser feito mktemp ./tmp.XXXX, onde o XXXX será substituido por números, assim ira gerar um arquivo com essa estenção de numeros aleatorios;
+
+nautilus . $ = abre a pasta no modo visual. Deve sere instalado para que seja usado;
+
+mv = move arquivos ou diretório para outros locais;
+- mv nome_do_arquivo_a_ser_movido endereço_para_onde_irá = coloca um arquivo em uma pasta;
+- mv endereço_para_onde_irá]/nome_do_arquivo_a_ser_movido . = retira o arquivo de dentro da pasta;
+- mv arquivo1 arquivo2 = ira renomear o nome do arquivo1 para aqruivo 2;
+
+cp = usado para cópiar arquivos e diretórios;
+- cp arquivo_que_vou_copiar onde_sera_copado;
+- cp arquivo_que_vou_copiar onde_sera_copado/ outro_nome_se_quero_dar_ao_arquivo;
+Paea diretórios:
+- cd -r pasta_ira/ pasta_destino;
+
+cat = exibe o conteudo de um arquivo;
+- cat arquivo.txt;
+
+
+
