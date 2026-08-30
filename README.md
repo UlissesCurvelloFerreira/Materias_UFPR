@@ -19,8 +19,7 @@ Materias_UFPR/
 ├── semestre-5/
 ├── semestre-6/
 ├── semestre-7/
-├── semestre-8/
-└── OUTROS/
+└── semestre-8/
 ```
 
 ---
@@ -125,14 +124,6 @@ Materias_UFPR/
 | `CI1005` | Qualidade de Software | — |
 | — | Optativas | — |
 | — | TCC II | — |
-
----
-
-## Outros Materiais
-
-Materiais que não estão diretamente associados à estrutura semestral do curso estão disponíveis em:
-
-[**Acessar pasta OUTROS →**](./OUTROS)
 
 ---
 
