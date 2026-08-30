@@ -86,13 +86,6 @@ Materias_UFPR/
 | `CI1162` | Engenharia de Requisitos | — |
 | `CI1215` | Sistemas Operacionais | — |
 
-### Outros materiais do semestre
-
-| Área | Material |
-| --- | :---: |
-| Aprendizado de Máquina | [Acessar](./semestre-5/AprendizadoMaquina) |
-| Machine Learning | [Acessar](./semestre-5/Machine) |
-
 ---
 
 ## 6º Semestre
