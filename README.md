@@ -1,135 +1,197 @@
-# Materias UFPR — BCC
+# Matérias UFPR — BCC
 
-Repositório pessoal para armazenar e organizar trabalhos acadêmicos das disciplinas do curso de **Bacharelado em Ciência da Computação (BCC)** da **Universidade Federal do Paraná (UFPR)**.
+Repositório pessoal destinado à organização dos materiais acadêmicos desenvolvidos durante o curso de **Bacharelado em Ciência da Computação (BCC)** da **Universidade Federal do Paraná (UFPR)**.
 
-Contém exercícios, projetos, relatórios e códigos desenvolvidos ao longo do curso, organizados por período e disciplina conforme a **Grade Curricular Versão 2019**.
+Aqui estão reunidos exercícios, listas, trabalhos, projetos, relatórios e códigos desenvolvidos ao longo da graduação.
 
----
-
-## Estrutura por Período
+Os materiais estão organizados por semestre e disciplina, utilizando como referência a **Grade Curricular 2019** do curso.
 
 ---
 
-### 1º Período
+## Organização do Repositório
 
-| Código | Disciplina | Pasta |
-| :----- | :--------- | :---- |
-| `CI1068` | Circuitos Digitais | **[Acessar →](./Circuitos_Digitais)** |
-| `CI1055` | Algoritmos e Estruturas de Dados 1 | **[Acessar →](./Algoritmos_e_Estruturas_de_Dados_1)** |
-| `CI1003` | Introdução à Ciência da Computação | *em breve* |
-| `CMA111` | Cálculo 1A | *em breve* |
-| `CM304` | Complementos de Matemática | *em breve* |
-
----
-
-### 2º Período
-
-| Código | Disciplina | Pasta |
-| :----- | :--------- | :---- |
-| `CI1210` | Projetos Digitais e Microprocessadores | **[Acessar →](./Projetos_Digitais_e_Microprocessadores)** |
-| `CI1056` | Algoritmos e Estruturas de Dados 2 | **[Acessar →](./Algoritmos_e_Estruturas_de_Dados_2)** |
-| `CI1001` | Programação 1 | **[Acessar →](./Prog1)** |
-| `CMA211` | Cálculo 2A | *em breve* |
-| `CM303` | Introdução à Geometria Analítica e Álgebra Linear | *em breve* |
+```text
+Materias_UFPR/
+├── semestre-1/
+├── semestre-2/
+├── semestre-3/
+├── semestre-4/
+├── semestre-5/
+├── semestre-6/
+├── semestre-7/
+├── semestre-8/
+└── OUTROS/
+```
 
 ---
 
-### 3º Período
+# Disciplinas
 
-| Código | Disciplina | Pasta |
-| :----- | :--------- | :---- |
-| `CI1212` | Arquitetura de Computadores | *em breve* |
-| `CI1057` | Algoritmos e Estruturas de Dados 3 | **[Acessar →](./Algoritmos_e_Estruturas_de_Dados_3)** |
-| `CI1002` | Programação 2 | **[Acessar →](./Prog2)** |
-| `CI1237` | Matemática Discreta | *em breve* |
-| `CE009` | Introdução à Estatística | *em breve* |
+## 1º Semestre
 
----
-
-### 4º Período
-
-| Código | Disciplina | Pasta |
-| :----- | :--------- | :---- |
-| `CI1059` | Introdução à Teoria da Computação | *em breve* |
-| `CI1350` | Interação Humano-Computador | *em breve* |
-| `CI1165` | Análise de Algoritmos | *em breve* |
-| `CI1164` | Introdução à Computação Científica | **[Acessar →](./Introdução%20a%20computacao_cientifica)** |
-| `CI1062` | Paradigmas de Programação | **[Acessar →](./paradigmas_da_programacao)** |
-| `CI1064` | Software Básico | *em breve* |
+| Código | Disciplina | Material |
+| :---: | --- | :---: |
+| `CI1068` | Circuitos Digitais | [Acessar](./semestre-1/Circuitos_Digitais) |
+| `CI1055` | Algoritmos e Estruturas de Dados 1 | [Acessar](./semestre-1/Algoritmos_e_Estruturas_de_Dados_1) |
+| `CI1003` | Introdução à Ciência da Computação | — |
+| `CMA111` | Cálculo 1A | — |
+| `CM304` | Complementos de Matemática | — |
 
 ---
 
-### 5º Período
+## 2º Semestre
 
-| Código | Disciplina | Pasta |
-| :----- | :--------- | :---- |
-| `CI1065` | Algoritmos e Teoria dos Grafos | *em breve* |
-| `CI1058` | Redes de Computadores 1 | **[Acessar →](./Redes_de_Computadores_1)** |
-| `CI1238` | Otimização | *em breve* |
-| `CI1162` | Engenharia de Requisitos | *em breve* |
-| `CI1215` | Sistemas Operacionais | *em breve* |
-
----
-
-### 6º Período
-
-| Código | Disciplina | Pasta |
-| :----- | :--------- | :---- |
-| `CI1209` | Inteligência Artificial | **[Acessar →](./Inteligencia_Artificial)** |
-| `CI1218` | Bancos de Dados | **[Acessar →](./Banco_de_Dados)** |
-| `CI1061` | Redes de Computadores 2 | *em breve* |
-| `CI1316` | Programação Paralela | *em breve* |
-| `CI1163` | Design de Software | *em breve* |
+| Código | Disciplina | Material |
+| :---: | --- | :---: |
+| `CI1210` | Projetos Digitais e Microprocessadores | [Acessar](./semestre-2/Projetos_Digitais_e_Microprocessadores) |
+| `CI1056` | Algoritmos e Estruturas de Dados 2 | [Acessar](./semestre-2/Algoritmos_e_Estruturas_de_Dados_2) |
+| `CI1001` | Programação 1 | [Acessar](./semestre-2/Prog1) |
+| `CMA211` | Cálculo 2A | — |
+| `CM303` | Introdução à Geometria Analítica e Álgebra Linear | — |
 
 ---
 
-### 7º Período
+## 3º Semestre
 
-| Código | Disciplina | Pasta |
-| :----- | :--------- | :---- |
-| `CI1221` | Engenharia de Software | *em breve* |
-| `CI1007` | Segurança Computacional | *em breve* |
-| — | Optativas | *em breve* |
-| — | TCC I | *em breve* |
-
----
-
-### 8º Período
-
-| Código | Disciplina | Pasta |
-| :----- | :--------- | :---- |
-| `CI1211` | Construção de Compiladores | *em breve* |
-| `CI1005` | Qualidade de Software | *em breve* |
-| — | Optativas | *em breve* |
-| — | TCC II | *em breve* |
+| Código | Disciplina | Material |
+| :---: | --- | :---: |
+| `CI1212` | Arquitetura de Computadores | — |
+| `CI1057` | Algoritmos e Estruturas de Dados 3 | [Acessar](./semestre-3/Algoritmos_e_Estruturas_de_Dados_3) |
+| `CI1002` | Programação 2 | [Acessar](./semestre-3/Prog2) |
+| `CI1237` | Matemática Discreta | — |
+| `CE009` | Introdução à Estatística | — |
 
 ---
 
-### Outros
+## 4º Semestre
 
-**[Acessar pasta de materiais diversos →](./OUTROS)**
+| Código | Disciplina | Material |
+| :---: | --- | :---: |
+| `CI1059` | Introdução à Teoria da Computação | — |
+| `CI1350` | Interação Humano-Computador | — |
+| `CI1165` | Análise de Algoritmos | — |
+| `CI1164` | Introdução à Computação Científica | [Acessar](./semestre-4/Introdução%20a%20computacao_cientifica) |
+| `CI1062` | Paradigmas de Programação | [Acessar](./semestre-4/paradigmas_da_programacao) |
+| `CI1064` | Software Básico | — |
 
 ---
 
-## Tecnologias
+## 5º Semestre
 
-- **C** — 45.7%
-- **Pascal** — 28.5%
-- **Python** — 19.6%
-- **Haskell** — 5.2%
+| Código | Disciplina | Material |
+| :---: | --- | :---: |
+| `CI1065` | Algoritmos e Teoria dos Grafos | — |
+| `CI1058` | Redes de Computadores 1 | [Acessar](./semestre-5/Redes_de_Computadores_1) |
+| `CI1238` | Otimização | [Acessar](./semestre-5/Otimizacao) |
+| `CI1162` | Engenharia de Requisitos | — |
+| `CI1215` | Sistemas Operacionais | — |
+
+### Outros materiais do semestre
+
+| Área | Material |
+| --- | :---: |
+| Aprendizado de Máquina | [Acessar](./semestre-5/AprendizadoMaquina) |
+| Machine Learning | [Acessar](./semestre-5/Machine) |
+
+---
+
+## 6º Semestre
+
+| Código | Disciplina | Material |
+| :---: | --- | :---: |
+| `CI1209` | Inteligência Artificial | [Acessar](./semestre-6/Inteligencia_Artificial) |
+| `CI1218` | Bancos de Dados | [Acessar](./semestre-6/Banco_de_Dados) |
+| `CI1061` | Redes de Computadores 2 | — |
+| `CI1316` | Programação Paralela | — |
+| `CI1163` | Design de Software | — |
+
+### Outros materiais do semestre
+
+| Área | Material |
+| --- | :---: |
+| Tópicos em Aprendizado de Máquina | [Acessar](./semestre-6/topicosEmAprendizadoMaquina) |
+
+---
+
+## 7º Semestre
+
+| Código | Disciplina | Material |
+| :---: | --- | :---: |
+| `CI1221` | Engenharia de Software | — |
+| `CI1007` | Segurança Computacional | — |
+| — | Optativas | — |
+| — | TCC I | — |
+
+---
+
+## 8º Semestre
+
+| Código | Disciplina | Material |
+| :---: | --- | :---: |
+| `CI1211` | Construção de Compiladores | — |
+| `CI1005` | Qualidade de Software | — |
+| — | Optativas | — |
+| — | TCC II | — |
+
+---
+
+## Outros Materiais
+
+Materiais que não estão diretamente associados à estrutura semestral do curso estão disponíveis em:
+
+[**Acessar pasta OUTROS →**](./OUTROS)
+
+---
+
+## Principais Linguagens e Tecnologias
+
+Ao longo das disciplinas e projetos deste repositório são utilizadas diferentes linguagens e tecnologias, incluindo:
+
+- C
+- C++
+- Python
+- Pascal
+- Haskell
+- Shell
+- SQL
+
+A utilização de cada linguagem varia conforme a disciplina e o projeto.
 
 ---
 
 ## Sobre o Curso
 
-O curso de **Bacharelado em Ciência da Computação da UFPR** segue a grade curricular versão 2019.
+O **Bacharelado em Ciência da Computação da UFPR** abrange fundamentos teóricos e práticos da computação, incluindo áreas como:
 
-> **Bloco A (Formação Básica):** O aluno deverá concluir todas as disciplinas do Bloco A para cursar qualquer outra disciplina, salvo quando houver autorização do colegiado do curso.
+- Algoritmos e Estruturas de Dados
+- Arquitetura de Computadores
+- Redes de Computadores
+- Sistemas Operacionais
+- Banco de Dados
+- Inteligência Artificial
+- Engenharia de Software
+- Teoria da Computação
+- Computação Científica
+- Aprendizado de Máquina
+
+Este repositório representa parte dos materiais produzidos durante minha trajetória acadêmica no curso.
+
+---
+
+## Observação
+
+Este é um repositório pessoal de estudos e não representa material oficial da Universidade Federal do Paraná.
+
+Algumas disciplinas podem não possuir conteúdo disponível no repositório.
 
 ---
 
 ## Autor
 
-**Ulisses Curvello Ferreira** — [@UlissesCurvelloFerreira](https://github.com/UlissesCurvelloFerreira)
+**Ulisses Curvello Ferreira**
 
-*Repositório em constante atualização conforme o avanço no curso.*
+GitHub: [@UlissesCurvelloFerreira](https://github.com/UlissesCurvelloFerreira)
+
+---
+
+*Repositório atualizado progressivamente conforme o avanço no curso.*
